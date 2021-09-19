@@ -1,0 +1,22 @@
+body{
+    background-image: url("background.jpg");
+}
+h3{
+    font-size: 25px !important;
+}
+#button{
+    border-radius: 15px;
+}
+#button:hover{
+    background-color: #a90dd9;
+    border-radius: 5px;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow: 1px 1px 30px #501b69;}
+    to{box-shadow: 10px 15px 30px #a13269;}
+}
